@@ -1,0 +1,108 @@
+# Comparing Repeated VCM + Pun behavior with Weakest Link Pun behavior
+# Felix Albrecht & Sebastian Kube
+
+
+* Ressources
+
+    1) Bachelorarbeit Studentin (Patricia Trapp)
+
+* Literature
+
+    1) Efficiency and Punishment in a coordination Game (Fabrice Le Lec, Ondrej Rydal, Astrid Matthey)
+    2) Punishment Patterns (Felix Albrecht, Sebastian Kube, Christian Traxler)
+   
+* Research Question
+
+** Main Research Question
+
+   - Correlation of Punishment Types across two different game settings?
+   - 2D Correlation of Types with C-game types
+
+* Experimental Setup
+
+** Order
+
+   1) C-RP-WP
+   2) C-WP-RP
+   3) + Questionnaire
+
+** C-Game
+
+   - Strategy Method VCM (FGF)
+
+*** DONE Code
+    
+*** DONE Description 
+
+** RP-Game
+
+    - 10 period repeated VCM
+    - with punishment
+    - partner setting
+    - 1st period containing punishment strategy method (SMP)
+
+*** DONE Code
+
+*** TODO Description
+
+    - parts of description exist
+    - but no version conditional on prior C-game WITHOUT prior P-game (one-shot punishment strategy method)
+    - needs adaptation
+    - standard and reversed order
+
+** WP-Game
+
+    - 10 period repeated weakest link game
+    - with punishment
+    - partner setting
+    - 1st period containing punishment strategy method 
+      
+
+*** TODO Code
+
+    - 1st period SMP available from RP-game
+    - adaptation of payoff function
+      + example can be adapted from Literature 1)
+    - code example exists for weakest link
+      + but built for 7 equilibria
+      + adaptation for 21 equilibria
+
+	
+*** TODO Description
+
+    - does not exist
+    - adaptation from RP-game (possibly)
+    - clarity of difference to RP-game is of MAJOR importance
+    - standard and reversed order
+
+** Socio-Psycho-Demographic Questionnaire
+
+*** TODO Code
+
+    - available from previous experiment
+    - some parts require updating and extension
+      
+* Calculations
+
+** Power
+
+   - *Important?*
+   - Do we estimate some effect?
+     
+** Payoff
+   
+*** Prediction
+
+ | country | subj123 | exchange x/Euro | showup |     pay31 |     pay41 |     pay51 |       sum |
+ |---------+---------+-----------------+--------+-----------+-----------+-----------+-----------|
+ | De      |     108 |               1 |      4 |  4.532222 |  4.807284 |  4.634444 |  17.97395 |
+ |---------+---------+-----------------+--------+-----------+-----------+-----------+-----------|
+ | JP      |      80 |          0.0071 |    500 |  580.6575 |  590.9827 |  618.8224 | 2290.4626 |
+ | JP Euro |         |                 |   3.55 | 4.1226683 | 4.1959772 | 4.3936390 | 16.262284 |
+ |---------+---------+-----------------+--------+-----------+-----------+-----------+-----------|
+ | US      |      72 |            0.78 |     10 |  4.639259 |  4.678611 |  4.756667 | 24.074537 |
+ | US Euro |         |                 |    7.8 | 3.6186220 | 3.6493166 | 3.7102003 | 18.778139 |
+ #+TBLFM: @2$8=(@2$4+@2$5+@2$6+@2$7)::@3$8=(@3$4+@3$5+@3$6+@3$7)::@5$8=(@5$4+@5$5+@5$6+@5$7)::@6$4=(@5$3*@5$4)
+ #+TBLFM: @6$5=(@5$3*@5$5)::@6$6=(@5$3*@5$6)::@6$7=(@5$3*@5$7)::@6$8=(@5$3*@5$8)::@4$4=(@3$3*@3$4)::@4$5=(@3$3*@3$5)
+ #+TBLFM: @4$6=(@3$3*@3$6)::@4$7=(@3$3*@3$7)::@4$8=(@3$3*@3$8)
+

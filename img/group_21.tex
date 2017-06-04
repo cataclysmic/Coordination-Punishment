@@ -1,0 +1,25 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{(mean) contrib}&\multicolumn{1}{c}{(mean) contrib}&\multicolumn{1}{c}{(mean) contrib}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{payoff}\\
+\hline
+count41             &       2.228\sym{***}&                     &       1.997\sym{***}&       1.350\sym{**} &                     &       1.349\sym{**} \\
+                    &     (0.537)         &                     &     (0.573)         &     (0.567)         &                     &     (0.577)         \\
+[1em]
+count51             &                     &       1.644\sym{**} &       0.817         &                     &       0.560         &       0.002         \\
+                    &                     &     (0.677)         &     (0.746)         &                     &     (0.616)         &     (0.673)         \\
+[1em]
+Constant            &       9.144\sym{***}&       9.185\sym{***}&       7.457\sym{***}&      21.584\sym{***}&      22.747\sym{***}&      21.580\sym{***}\\
+                    &     (1.450)         &     (1.966)         &     (2.150)         &     (1.337)         &     (1.584)         &     (1.847)         \\
+\hline
+Observations        &         570         &         570         &         570         &         570         &         570         &         570         \\
+Adjusted \(R^{2}\)  &                     &                     &                     &                     &                     &                     \\
+\textit{AIC}        &           .         &           .         &           .         &           .         &           .         &           .         \\
+\textit{BIC}        &           .         &           .         &           .         &           .         &           .         &           .         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

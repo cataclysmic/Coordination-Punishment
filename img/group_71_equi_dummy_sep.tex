@@ -1,0 +1,41 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{(mean) equi}&\multicolumn{1}{c}{(mean) equi}&\multicolumn{1}{c}{(mean) equi}&\multicolumn{1}{c}{(mean) equi}\\
+\hline
+(mean) equi         &                     &                     &                     &                     \\
+count412            &       0.713         &                     &                     &                     \\
+                    &     (0.470)         &                     &                     &                     \\
+[1em]
+count4134           &       0.554         &                     &                     &                     \\
+                    &     (0.441)         &                     &                     &                     \\
+[1em]
+count612            &                     &      -0.364         &                     &      -0.509         \\
+                    &                     &     (0.483)         &                     &     (0.512)         \\
+[1em]
+count6134           &                     &       0.402         &                     &       0.241         \\
+                    &                     &     (0.471)         &                     &     (0.522)         \\
+[1em]
+count512            &                     &                     &       0.886         &       0.906         \\
+                    &                     &                     &     (0.701)         &     (0.677)         \\
+[1em]
+count5134           &                     &                     &       0.834         &       0.822         \\
+                    &                     &                     &     (0.659)         &     (0.684)         \\
+[1em]
+Constant            &      -1.226\sym{***}&      -0.854\sym{**} &      -1.604\sym{***}&      -1.494\sym{**} \\
+                    &     (0.319)         &     (0.375)         &     (0.619)         &     (0.611)         \\
+\hline
+lnsig2u             &                     &                     &                     &                     \\
+Constant            &       0.446         &       0.415         &       0.462         &       0.363         \\
+                    &     (0.304)         &     (0.306)         &     (0.303)         &     (0.307)         \\
+\hline
+Observations        &         570         &         570         &         570         &         570         \\
+\textit{AIC}        &         566         &         565         &         567         &         567         \\
+\textit{BIC}        &         583         &         583         &         584         &         594         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

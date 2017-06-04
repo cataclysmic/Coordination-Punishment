@@ -1,0 +1,55 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}\\
+\hline
+(20-c\_j)            &       0.068\sym{***}&       0.085\sym{***}&                     &                     &                     &                     \\
+                    &     (0.007)         &     (0.007)         &                     &                     &                     &                     \\
+[1em]
+outcon1             &                     &                     &       0.062\sym{***}&       0.038\sym{***}&                     &                     \\
+                    &                     &                     &     (0.006)         &     (0.003)         &                     &                     \\
+[1em]
+sdiff\_bz            &                     &                     &                     &                     &      -0.008         &                     \\
+                    &                     &                     &                     &                     &     (0.006)         &                     \\
+[1em]
+sdiff\_az            &                     &                     &                     &                     &       0.120\sym{***}&                     \\
+                    &                     &                     &                     &                     &     (0.012)         &                     \\
+[1em]
+sdiff\_bz61          &                     &                     &                     &                     &      -0.003         &                     \\
+                    &                     &                     &                     &                     &     (0.006)         &                     \\
+[1em]
+sdiff\_az61          &                     &                     &                     &                     &      -0.004         &                     \\
+                    &                     &                     &                     &                     &     (0.012)         &                     \\
+[1em]
+D.min(c\_{jkl})      &                     &                     &                     &                     &       0.278\sym{***}&       0.278\sym{***}\\
+                    &                     &                     &                     &                     &     (0.057)         &     (0.057)         \\
+[1em]
+D.WLS\times D.min(c\_{jkl})&                     &                     &                     &                     &       0.043         &       0.043         \\
+                    &                     &                     &                     &                     &     (0.072)         &     (0.072)         \\
+[1em]
+paydiff\_bz          &                     &                     &                     &                     &                     &      -0.008         \\
+                    &                     &                     &                     &                     &                     &     (0.006)         \\
+[1em]
+paydiff\_az          &                     &                     &                     &                     &                     &       0.120\sym{***}\\
+                    &                     &                     &                     &                     &                     &     (0.012)         \\
+[1em]
+paydiff\_bz61        &                     &                     &                     &                     &                     &      -0.003         \\
+                    &                     &                     &                     &                     &                     &     (0.006)         \\
+[1em]
+paydiff\_az61        &                     &                     &                     &                     &                     &      -0.004         \\
+                    &                     &                     &                     &                     &                     &     (0.012)         \\
+[1em]
+Constant            &      -0.005         &      -0.019         &      -0.962\sym{***}&       0.182\sym{***}&       0.061         &       0.061         \\
+                    &     (0.067)         &     (0.070)         &     (0.158)         &     (0.057)         &     (0.056)         &     (0.056)         \\
+\hline
+Observations        &        6840         &        6840         &        6840         &        6840         &       13680         &       13680         \\
+Adjusted \(R^{2}\)  &       0.222         &       0.251         &       0.098         &       0.048         &       0.319         &       0.319         \\
+\textit{AIC}        &       18036         &       19974         &       19054         &       21619         &       39175         &       39175         \\
+\textit{BIC}        &       18043         &       19980         &       19061         &       21626         &       39220         &       39220         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

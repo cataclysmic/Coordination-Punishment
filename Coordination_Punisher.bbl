@@ -1,0 +1,486 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist[entry]{cms/global}
+    \entry{Albrecht2016a}{unpublished}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=542bb837e466ec0c77a040ed82f56241}{%
+           family={Albrecht},
+           family_i={A\bibinitperiod},
+           given={Felix},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=225d611fb09e5fa82b91d9094847bff2}{%
+           family={Kube},
+           family_i={K\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=da7e6c24beef3ffbe749f3d1edf37348}{%
+           family={Traxler},
+           family_i={T\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0c8c154979853643848f916ba54d0cb}
+      \strng{fullhash}{a0c8c154979853643848f916ba54d0cb}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We explore the relationship between individuals' disposition to cooperate and their inclination to engage in peer punishment as well as their relative importance for mitigating social dilemmas. Using a novel strategy-method approach we identify individual punishment patterns and link them with individual cooperation patterns. Classifying N = 628 subjects along these two dimensions documents that cooperation and punishment patterns are intuitively aligned for most individuals. However, the data also reveal a sizable share of free-riders that punish pro-socially and conditional cooperators that do not engage in punishment. Analyzing the interplay between types in an additional experiment, we show that pro-social punishers are more crucial for achieving cooperation than conditional cooperators. Incorporating information on punishment types explains large amounts of the between and within group variation in cooperation.}
+      \field{series}{CESifo Working Paper Series}
+      \field{title}{{Cooperation and Punishment: The Individual-Level Perspective}}
+      \field{type}{Working Paper}
+      \field{year}{2016}
+      \field{pages}{34}
+      \range{pages}{1}
+      \keyw{conditional cooperation,public-goods game,punishment patterns,strategy method,type classification}
+    \endentry
+    \entry{Hroot}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=f31893cab99cd40f52e34b1e86920191}{%
+           family={Bock},
+           family_i={B\bibinitperiod},
+           given={Olaf},
+           given_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=f9aacf7c6c0190e5c65d31b9967c5007}{%
+           family={Baetge},
+           family_i={B\bibinitperiod},
+           given={Ingmar},
+           given_i={I\bibinitperiod}}}%
+        {{uniquename=0,hash=9087f7127341a92bd566922f76b9bc9d}{%
+           family={Nicklisch},
+           family_i={N\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{8c98419cc582bf518574efd2fdbb5b93}
+      \strng{fullhash}{8c98419cc582bf518574efd2fdbb5b93}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2014}
+      \field{labelmonth}{10}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00142921}
+      \field{journaltitle}{European Economic Review}
+      \field{month}{10}
+      \field{title}{{hroot: Hamburg Registration and Organization Online Tool}}
+      \field{volume}{71}
+      \field{year}{2014}
+      \field{pages}{117\bibrangedash 120}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/j.euroecorev.2014.07.003
+      \endverb
+      \verb{url}
+      \verb http://linkinghub.elsevier.com/retrieve/pii/S0014292114001159
+      \endverb
+    \endentry
+    \entry{Brandts2006}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5654d643ea26a67781276444c5ebaed8}{%
+           family={Brandts},
+           family_i={B\bibinitperiod},
+           given={Jordi},
+           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=caa62b3c3e3c0be1a9bdbd72ace1cee1}{%
+           family={Cooper},
+           family_i={C\bibinitperiod},
+           given={David\bibnamedelima J.},
+           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce9633ffcdc69fe095dc84c91b9c7873}
+      \strng{fullhash}{ce9633ffcdc69fe095dc84c91b9c7873}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study how financial incentives can be used to overcome a history of coordination failure using controlled laboratory experiments. Subjects' payoffs depend on coor- dinating at high effort levels. In an initial phase, the benefits of coordination are low, and play typically converges to an inefficient outcome. We then explore varying financial incentives to coordinate at a higher effort level. An increase in the benefits of coordination leads to improved coordination, but large increases have no more impact than small increases. Once subjects have coordinated on a higher effort level, reductions in the incentives to coordinate have little effect on behavior}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{3}
+      \field{title}{{A Change Would Do You Good .... An Experimental Study on How to Overcome Coordination Failure in Organisations}}
+      \field{volume}{96}
+      \field{year}{2006}
+      \field{pages}{669\bibrangedash 693}
+      \range{pages}{25}
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Brandts, Cooper/American Economic Review/Brandts, Cooper - 2006.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Fehr2002d}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=91ed91d8a80667277e10cbdf3b0585db}{%
+           family={Fehr},
+           family_i={F\bibinitperiod},
+           given={Ernst},
+           given_i={E\bibinitperiod}}}%
+        {{uniquename=0,hash=7f9297ecd1d95048dc746913a723e280}{%
+           family={Gächter},
+           family_i={G\bibinitperiod},
+           given={Simon},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{e84486efb17a5f1fb8d1c284dc7ff79b}
+      \strng{fullhash}{e84486efb17a5f1fb8d1c284dc7ff79b}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Human cooperation is an evolutionary puzzle. Unlike other creatures, people frequently cooperate with genetically unrelated strangers, often in large groups, with people they will never meet again, and when reputation gains are small or absent. These patterns of cooperation cannot be explained by the nepotistic motives associated with the evolutionary theory of kin selection and the selfish motives associated with signalling theory or the theory of reciprocal altruism. Here we show experimentally that the altruistic punishment of defectors is a key motive for the explanation of cooperation. Altruistic punishment means that individuals punish, although the punishment is costly for them and yields no material gain. We show that cooperation flourishes if altruistic punishment is possible, and breaks down if it is ruled out. The evidence indicates that negative emotions towards defectors are the proximate mechanism behind altruistic punishment. These results suggest that future study of the evolution of human cooperation should include a strong focus on explaining altruistic punishment.}
+      \field{annotation}{Erklärung für Kooperation: selbstlose Bestrafung (bestrafen, obwohl es keinen Nutzen stiftet) derer, die nicht beitragen. Kooperation steigt, wenn Bestrafung möglich ist, und sinkt, wenn es nicht möglich ist. Evidenz: negative Emotionen führen dazu, selbstlos zu bestrafen. Keiner aus der Gruppe hat einen Anreiz free rider zu bestrafen: bestrafen von free riders ist ein second-order public good. Problem von diesen PB's kann gelöst werden wenn die Gruppe genug Leute hat, welche selbstlos bestrafen. Je mehr einer aus der Gruppe abweicht mit seinem Beitrag, desto höher wurde er bestraft. Kooperation steigte mit Punishment, aber fiel stark ohne Punishment. Mögliche Erklärung: starke negative Emotionen von den kooperierenden zu den free riders (werden auch von free ridern erwartet)}
+      \field{isbn}{0028-0836}
+      \field{issn}{00280836}
+      \field{journaltitle}{Nature}
+      \field{number}{6868}
+      \field{title}{{Altruistic punishment in humans}}
+      \field{volume}{415}
+      \field{year}{2002}
+      \field{pages}{137\bibrangedash 140}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1038/415137a
+      \endverb
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Fehr, Gächter/Nature/Fehr, Gächter - 2002(2).pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nature.com/doifinder/10.1038/415137a
+      \endverb
+    \endentry
+    \entry{Fischbacher2007}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=62f4d33673a293fc9457a98daadd2feb}{%
+           family={Fischbacher},
+           family_i={F\bibinitperiod},
+           given={Urs},
+           given_i={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{62f4d33673a293fc9457a98daadd2feb}
+      \strng{fullhash}{62f4d33673a293fc9457a98daadd2feb}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Experimental Economics}
+      \field{number}{2}
+      \field{title}{{z-Tree: Zurich Toolbox for Ready-made Economic Experiments}}
+      \field{volume}{10}
+      \field{year}{2007}
+      \field{pages}{171\bibrangedash 178}
+      \range{pages}{8}
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Fischbacher/Experimental Economics/Fischbacher - 2007.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ztree.uzh.ch/index.html
+      \endverb
+    \endentry
+    \entry{Fischbacher2001}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=62f4d33673a293fc9457a98daadd2feb}{%
+           family={Fischbacher},
+           family_i={F\bibinitperiod},
+           given={Urs},
+           given_i={U\bibinitperiod}}}%
+        {{uniquename=0,hash=7f9297ecd1d95048dc746913a723e280}{%
+           family={Gächter},
+           family_i={G\bibinitperiod},
+           given={Simon},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=91ed91d8a80667277e10cbdf3b0585db}{%
+           family={Fehr},
+           family_i={F\bibinitperiod},
+           given={Ernst},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f5d16888d83d51812c733b56a3a2784}
+      \strng{fullhash}{1f5d16888d83d51812c733b56a3a2784}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We study the importance of conditional cooperation in a one-shot public goods game by using a variant of the strategy-method. We find that a third of the subjects can be classified as free riders, whereas 50{\%} are conditional cooperators.}
+      \field{annotation}{From Duplicate 1 (Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst) And Duplicate 2 (Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst) Conditional Cooperation, one-shot linear Public Goods Game mit einer Variante der Strategie-Methode von Selten. 1/3 sind Free Rider, 50{\%} CC. 14{\%} "hump-shaped" Bei rationalen und egoistischen Individuen würde man von weniger Kooperation ausgehen. Die beobachtete Kooperation ist uneinheitlich und abnehmend im Zeitverlauf. Mögliche Erklärung: es gibt CC, also Leute, die bereit sind mehr beizutragen, je mehr die anderen beitragen. CC kann als eine Motivation an sich betrachtet werden oder als eine Konsequenz einiger Fairness-Präferenzen wie Altruismus, Warmherzigkeit, Ungleichheitsaversion oder Reziprozität. Strategiemethode von Selten (1967) wird implementiert, um die Präferenzen der Teilnehmer heraus zu filtern, Unconditional contribution und contribution table. Teilnehmer treffen beide Entscheidungen, ohne das die Entscheidungen der anderen bekannt ist. Dadurch wird der Plan der Teilnehmer aufgedeckt. Damit das Experiment anreizverträglich bleibt und die Teilnehmer ihre wahren Entscheidungen berichten (und die Fragen ernst nehmen), wird Ihnen gesagt, dass eine ihrer beiden Entscheidungen am Ende zufällig ausgelost und bezahlt wird. In jeder Gruppe wird für einen der vier Teilnehmer zufällig die Beitragstabelle relevant. Für die anderen drei wird ihre unconditional contribution relevant. Also ist die Wahrscheinlichkeit, dass die Beitragstabelle für eine Person wichtig wird, 25{\%}. Das sichert, dass sowohl alle Einträge in der Tabelle als auch die unconditionellen Beiträge Payoff-relevant sind. From Duplicate 3 (Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst) And Duplicate 4 (Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst) From Duplicate 2 ( Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst ) And Duplicate 3 ( Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst )}
+      \field{issn}{01651765}
+      \field{journaltitle}{Economics Letters}
+      \field{number}{3}
+      \field{shorttitle}{Are people conditionally cooperative?}
+      \field{title}{{Are people conditionally cooperative? Evidence from a public goods experiment}}
+      \field{volume}{71}
+      \field{year}{2001}
+      \field{pages}{397\bibrangedash 404}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/S0165-1765(01)00394-9
+      \endverb
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Fischbacher, Gächter, Fehr/Economics Letters/Fischbacher, Gächter, Fehr - 2001.pdf:pdf;:home/cataclysmic/Dropbox/Papers/Fischbacher, Gächter, Fehr/Economics Letters/Fischbacher, Gächter, Fehr - 2001.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science?%7B%5C_%7Dob=ArticleURL%7B%5C&%7D%7B%5C_%7Dudi=B6V84-42VV88K-J%7B%5C&%7D%7B%5C_%7Duser=10%7B%5C&%7D%7B%5C_%7Drdoc=1%7B%5C&%7D%7B%5C_%7Dfmt=%7B%5C&%7D%7B%5C_%7Dorig=search%7B%5C&%7D%7B%5C_%7Dsort=d%7B%5C&%7D%7B%5C_%7Ddocanchor=%7B%5C&%7Dview=c%7B%5C&%7D%7B%5C_%7DsearchStrId=1107416808%7B%5C&%7D%7B%5C_%7DrerunOrigin=scholar.google%7B%5C&%7D%7B%5C_%7Dacct=C000050221%7B%5C&%7D%7B%5C_%7Dversion=1%7B%5C&%7D%7B%5C_%7DurlVersion=0%7B%5C&%7D%7B%5C_%7Duserid=10%7B%5C&%7Dmd5=01d7797c59
+      \endverb
+      \keyw{Conditional cooperation,Experiments,Free riding,Strategy-method,Voluntary contributions,c91,conditional cooperation,experiments,free riding,h41,jel classification,strategy-method,voluntary contributions}
+    \endentry
+    \entry{Herrmann2008}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=ab495c03d626e7b875f7e3df38f93288}{%
+           family={Herrmann},
+           family_i={H\bibinitperiod},
+           given={Benedikt},
+           given_i={B\bibinitperiod}}}%
+        {{uniquename=0,hash=0b7bb70d7a4c662f43be0dd7d6132f5f}{%
+           family={Thöni},
+           family_i={T\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=7f9297ecd1d95048dc746913a723e280}{%
+           family={Gächter},
+           family_i={G\bibinitperiod},
+           given={Simon},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{90a023129ce3b4929ada234f894ce062}
+      \strng{fullhash}{90a023129ce3b4929ada234f894ce062}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We document the widespread existence of antisocial punishment, that is, the sanctioning of people who behave prosocially. Our evidence comes from public goods experiments that we conducted in 16 comparable participant pools around the world. However, there is a huge cross-societal variation. Some participant pools punished the high contributors as much as they punished the low contributors, whereas in others people only punished low contributors. In some participant pools, antisocial punishment was strong enough to remove the cooperation-enhancing effect of punishment. We also show that weak norms of civic cooperation and the weakness of the rule of law in a country are significant predictors of antisocial punishment. Our results show that punishment opportunities are socially beneficial only if complemented by strong social norms of cooperation.}
+      \field{issn}{1095-9203}
+      \field{journaltitle}{Science}
+      \field{number}{5868}
+      \field{title}{{Antisocial punishment across societies}}
+      \field{volume}{319}
+      \field{year}{2008}
+      \field{pages}{1362\bibrangedash 7}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1126/science.1153808
+      \endverb
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Herrmann, Thöni, Gächter/Science/Herrmann, Thöni, Gächter - 2008.pdf:pdf;:home/cataclysmic/Dropbox/Papers/Herrmann, Thöni, Gächter/Science/Herrmann, Thöni, Gächter - 2008(2).pdf:pdf;:home/cataclysmic/Dropbox/Papers/Herrmann, Thöni, Gächter/Science/Herrmann, Thöni, Gächter - 2008.epub:epub
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/18323447
+      \endverb
+      \keyw{Cooperative Behavior,Cross-Cultural Comparison,Emotions,Experimental,Formal,Games,Humans,Punishment,Regression Analysis,Social Behavior,Social Control}
+    \endentry
+    \entry{Huyck1990}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=9f7644adc75308fbbf8298760c118f15}{%
+           family={Huyck},
+           family_i={H\bibinitperiod},
+           given={John\bibnamedelimb B.\bibnamedelimi Van},
+           given_i={J\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{uniquename=0,hash=85142427dbcc6ddea309c70c7a66074f}{%
+           family={Battalio},
+           family_i={B\bibinitperiod},
+           given={Raymond\bibnamedelima C.},
+           given_i={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{uniquename=0,hash=e04cdf3cebd0532b1ac198e99d333273}{%
+           family={Beil},
+           family_i={B\bibinitperiod},
+           given={Richard\bibnamedelima O.},
+           given_i={R\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{854e4cf0101203850bedfbb4f27bdb2b}
+      \strng{fullhash}{854e4cf0101203850bedfbb4f27bdb2b}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{1990}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{From Duplicate 1 (Tacit Coordination Games, Strategic Uncertainty, and Coordination Failure - Huyck, John B. Van; Battalio, Raymond C.; Beil, Richard O.) Theoretische Überlegungen legen nahe, dass free riding am wenigsten anzutrefen ist beim WL und am grö{ß}ten beim best shot. Diese Überlegungen wurden in dem Experiment von Hirshleifer bestätigt. WL: nur ein Fehler eines Mitgliedes ist fatal für alle aus der Gruppe Die Standardvorhersage sagt, dass die Teilnehmer das öffentliche gut "unterversorgen" würden, aber in Experimenten zeigt sich, dass sie dieses Problem lösen, so dass free riding weniger eintritt als erwartet. SCF: die Beziehung zwischen dem individuellem Beitrag q und der sozialen Gruppenauszahlen des öffentlichen Gutes.}
+      \field{journaltitle}{American Economic Review}
+      \field{number}{1}
+      \field{title}{{Tacit Coordination Games, Strategic Uncertainty, and Coordination Failure}}
+      \field{volume}{80}
+      \field{year}{1990}
+      \field{pages}{234\bibrangedash 248}
+      \range{pages}{15}
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Huyck, Battalio, Beil/American Economic Review/Huyck, Battalio, Beil - 1990.pdf:pdf;:home/cataclysmic/Dropbox/Papers/Huyck, Battalio, Beil/American Economic Review/Huyck, Battalio, Beil - 1990(2).pdf:pdf;:home/cataclysmic/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Huyck, Battalio, Beil - 2016 - American Economic Association Tacit Coordination Games , Strategic Uncertainty , and Coordination Failure.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/2006745
+      \endverb
+    \endentry
+    \entry{Kube2011}{article}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=225d611fb09e5fa82b91d9094847bff2}{%
+           family={Kube},
+           family_i={K\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=da7e6c24beef3ffbe749f3d1edf37348}{%
+           family={Traxler},
+           family_i={T\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ac5704cd151304470ea4cc46b2fdf80}
+      \strng{fullhash}{2ac5704cd151304470ea4cc46b2fdf80}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although legal sanctions are often non-deterrent, we frequently observe compliance with ‘mild laws'. A possible explanation is that the incentives to comply are shaped not only by legal, but also by social sanctions. This paper employs a novel experimental approach to study the link between legal and social norm enforcement. We analyze whether the two institutions are complements or substitutes. Our results show that legal sanctions partially crowd out social norm enforcement. The welfare effect from mild laws is positive, however, as a higher level of compliance is achieved at lower enforcement costs.}
+      \field{annotation}{From Duplicate 1 (The Interaction of Legal and Social Norm Enforcement - Kube, Sebastian; Traxler, Christian) From Duplicate 1 (The Interaction of Legal and Social Norm Enforcement - Kube, Sebastian; Traxler, Christian) (1) Zentralisierte versus dezentrale Durchsetzung von Normen I [Lab]}
+      \field{issn}{10973923}
+      \field{journaltitle}{Journal of Public Economic Theory}
+      \field{number}{5}
+      \field{title}{{The Interaction of Legal and Social Norm Enforcement}}
+      \field{volume}{13}
+      \field{year}{2011}
+      \field{pages}{639\bibrangedash 660}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1111/j.1467-9779.2011.01515.x
+      \endverb
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Kube, Traxler/Journal of Public Economic Theory/Kube, Traxler - 2011(2).pdf:pdf;:home/cataclysmic/Dropbox/Papers/Kube, Traxler/Journal of Public Economic Theory/Kube, Traxler - 2011.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://doi.wiley.com/10.1111/j.1467-9779.2011.01515.x
+      \endverb
+      \keyw{laboratory experi-,legal sanctions,ment,mild laws,norm enforcement,public goods,social sanctions,vcm}
+    \endentry
+    \entry{Lec2015}{unpublished}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=1497483af76644d6b22fbe3de8b2aec2}{%
+           family={{Le\bibnamedelimb Lec}},
+           family_i={L\bibinitperiod},
+           given={Fabrice},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=2499df4dc1755c6bc4098d7adbbcbef2}{%
+           family={Rydval},
+           family_i={R\bibinitperiod},
+           given={Ondrej},
+           given_i={O\bibinitperiod}}}%
+        {{uniquename=0,hash=b5430fbea3df0fa47ca00d39f3eff6e7}{%
+           family={Matthey},
+           family_i={M\bibinitperiod},
+           given={Astrid},
+           given_i={A\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERGE-EI}%
+      }
+      \strng{namehash}{8276b48a7490af64cbf2d0b6748fdc2c}
+      \strng{fullhash}{8276b48a7490af64cbf2d0b6748fdc2c}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using a laboratory experiment, we examine whether voluntary monetary sanctions induce subjects to coordinate more efficiently in a repeated minimum effort coor- dination game. While most groups first experience inefficient coordination in a baseline treatment, the efficiency increases substantially once ex post sanctioning opportunities are introduced, that is, when one can assign costly punishment points to other group members in order to reduce their payoffs. We compare the effect of this voluntary punishment possibility with the effect of ex post costless communica- tion: in contrast to the punishment treatment, the latter only temporarily increases efficiency and fails to do so permanently. This suggests that decentralized sanctions can play an important role as a coordination device in Pareto-ranked coordination settings, such as teamwork in firms and other organizational contexts.}
+      \field{booktitle}{SSRN Electronic Journal}
+      \field{issn}{1556-5068}
+      \field{title}{{Efficiency and Punishment in a Coordination Game: Voluntary Sanctions in the Minimum Effort Game}}
+      \field{year}{2015}
+      \field{pages}{29}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.2139/ssrn.2555451
+      \endverb
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Le Lec, Rydval, Matthey/SSRN Electronic Journal/Le Lec, Rydval, Matthey - 2015.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ssrn.com/abstract=2555451
+      \endverb
+      \keyw{coordination,minimum effort,order-statistic game,punishment,sanc- tion,weakest link}
+    \endentry
+  \endsortlist
+  \missing{Fischbacher2010}
+  \missing{Albrecht2017a}
+\endrefsection
+
+\refsection{2}
+  \sortlist[entry]{cms/global}
+    \entry{Fischbacher2001}{article}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=62f4d33673a293fc9457a98daadd2feb}{%
+           family={Fischbacher},
+           family_i={F\bibinitperiod},
+           given={Urs},
+           given_i={U\bibinitperiod}}}%
+        {{uniquename=0,hash=7f9297ecd1d95048dc746913a723e280}{%
+           family={Gächter},
+           family_i={G\bibinitperiod},
+           given={Simon},
+           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=91ed91d8a80667277e10cbdf3b0585db}{%
+           family={Fehr},
+           family_i={F\bibinitperiod},
+           given={Ernst},
+           given_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f5d16888d83d51812c733b56a3a2784}
+      \strng{fullhash}{1f5d16888d83d51812c733b56a3a2784}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We study the importance of conditional cooperation in a one-shot public goods game by using a variant of the strategy-method. We find that a third of the subjects can be classified as free riders, whereas 50{\%} are conditional cooperators.}
+      \field{annotation}{From Duplicate 1 (Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst) And Duplicate 2 (Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst) Conditional Cooperation, one-shot linear Public Goods Game mit einer Variante der Strategie-Methode von Selten. 1/3 sind Free Rider, 50{\%} CC. 14{\%} "hump-shaped" Bei rationalen und egoistischen Individuen würde man von weniger Kooperation ausgehen. Die beobachtete Kooperation ist uneinheitlich und abnehmend im Zeitverlauf. Mögliche Erklärung: es gibt CC, also Leute, die bereit sind mehr beizutragen, je mehr die anderen beitragen. CC kann als eine Motivation an sich betrachtet werden oder als eine Konsequenz einiger Fairness-Präferenzen wie Altruismus, Warmherzigkeit, Ungleichheitsaversion oder Reziprozität. Strategiemethode von Selten (1967) wird implementiert, um die Präferenzen der Teilnehmer heraus zu filtern, Unconditional contribution und contribution table. Teilnehmer treffen beide Entscheidungen, ohne das die Entscheidungen der anderen bekannt ist. Dadurch wird der Plan der Teilnehmer aufgedeckt. Damit das Experiment anreizverträglich bleibt und die Teilnehmer ihre wahren Entscheidungen berichten (und die Fragen ernst nehmen), wird Ihnen gesagt, dass eine ihrer beiden Entscheidungen am Ende zufällig ausgelost und bezahlt wird. In jeder Gruppe wird für einen der vier Teilnehmer zufällig die Beitragstabelle relevant. Für die anderen drei wird ihre unconditional contribution relevant. Also ist die Wahrscheinlichkeit, dass die Beitragstabelle für eine Person wichtig wird, 25{\%}. Das sichert, dass sowohl alle Einträge in der Tabelle als auch die unconditionellen Beiträge Payoff-relevant sind. From Duplicate 3 (Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst) And Duplicate 4 (Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst) From Duplicate 2 ( Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst ) And Duplicate 3 ( Are people conditionally cooperative? Evidence from a public goods experiment - Fischbacher, Urs; Gächter, Simon; Fehr, Ernst )}
+      \field{issn}{01651765}
+      \field{journaltitle}{Economics Letters}
+      \field{number}{3}
+      \field{shorttitle}{Are people conditionally cooperative?}
+      \field{title}{{Are people conditionally cooperative? Evidence from a public goods experiment}}
+      \field{volume}{71}
+      \field{year}{2001}
+      \field{pages}{397\bibrangedash 404}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/S0165-1765(01)00394-9
+      \endverb
+      \verb{file}
+      \verb :home/cataclysmic/Dropbox/Papers/Fischbacher, Gächter, Fehr/Economics Letters/Fischbacher, Gächter, Fehr - 2001.pdf:pdf;:home/cataclysmic/Dropbox/Papers/Fischbacher, Gächter, Fehr/Economics Letters/Fischbacher, Gächter, Fehr - 2001.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science?%7B%5C_%7Dob=ArticleURL%7B%5C&%7D%7B%5C_%7Dudi=B6V84-42VV88K-J%7B%5C&%7D%7B%5C_%7Duser=10%7B%5C&%7D%7B%5C_%7Drdoc=1%7B%5C&%7D%7B%5C_%7Dfmt=%7B%5C&%7D%7B%5C_%7Dorig=search%7B%5C&%7D%7B%5C_%7Dsort=d%7B%5C&%7D%7B%5C_%7Ddocanchor=%7B%5C&%7Dview=c%7B%5C&%7D%7B%5C_%7DsearchStrId=1107416808%7B%5C&%7D%7B%5C_%7DrerunOrigin=scholar.google%7B%5C&%7D%7B%5C_%7Dacct=C000050221%7B%5C&%7D%7B%5C_%7Dversion=1%7B%5C&%7D%7B%5C_%7DurlVersion=0%7B%5C&%7D%7B%5C_%7Duserid=10%7B%5C&%7Dmd5=01d7797c59
+      \endverb
+      \keyw{Conditional cooperation,Experiments,Free riding,Strategy-method,Voluntary contributions,c91,conditional cooperation,experiments,free riding,h41,jel classification,strategy-method,voluntary contributions}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

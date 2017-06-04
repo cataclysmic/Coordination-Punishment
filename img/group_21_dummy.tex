@@ -1,0 +1,32 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}\\
+                    &\multicolumn{1}{c}{(mean) equi}&\multicolumn{1}{c}{(mean) equi}&\multicolumn{1}{c}{(mean) equi}&\multicolumn{1}{c}{(mean) equi}&\multicolumn{1}{c}{equi20}&\multicolumn{1}{c}{equi20}&\multicolumn{1}{c}{equi20}&\multicolumn{1}{c}{equi20}\\
+\hline
+main                &                     &                     &                     &                     &                     &                     &                     &                     \\
+count41             &       0.324\sym{*}  &                     &                     &                     &       0.637\sym{***}&                     &                     &                     \\
+                    &     (0.183)         &                     &                     &                     &     (0.245)         &                     &                     &                     \\
+[1em]
+count61             &                     &       0.285         &                     &       0.220         &                     &       0.697\sym{***}&                     &       0.635\sym{**} \\
+                    &                     &     (0.188)         &                     &     (0.210)         &                     &     (0.255)         &                     &     (0.281)         \\
+[1em]
+count51             &                     &                     &       0.278         &       0.164         &                     &                     &       0.487\sym{*}  &       0.164         \\
+                    &                     &                     &     (0.216)         &     (0.238)         &                     &                     &     (0.292)         &     (0.314)         \\
+[1em]
+Constant            &      -1.471\sym{***}&      -1.443\sym{***}&      -1.572\sym{***}&      -1.734\sym{***}&      -2.592\sym{***}&      -2.822\sym{***}&      -2.624\sym{***}&      -3.120\sym{***}\\
+                    &     (0.419)         &     (0.452)         &     (0.609)         &     (0.625)         &     (0.593)         &     (0.652)         &     (0.841)         &     (0.880)         \\
+\hline
+lnsig2u             &                     &                     &                     &                     &                     &                     &                     &                     \\
+Constant            &       0.429         &       0.444         &       0.475         &       0.437         &       0.968\sym{***}&       0.942\sym{***}&       1.052\sym{***}&       0.934\sym{***}\\
+                    &     (0.304)         &     (0.304)         &     (0.303)         &     (0.305)         &     (0.330)         &     (0.331)         &     (0.331)         &     (0.331)         \\
+\hline
+Observations        &         570         &         570         &         570         &         570         &         570         &         570         &         570         &         570         \\
+\textit{AIC}        &         563         &         564         &         565         &         566         &         471         &         470         &         475         &         472         \\
+\textit{BIC}        &         576         &         577         &         578         &         583         &         484         &         483         &         488         &         489         \\
+\hline\hline
+\multicolumn{9}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

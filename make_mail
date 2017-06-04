@@ -1,0 +1,18 @@
+#!/bin/sh
+
+DATE=`date +%Y%m%d`
+
+mkdir RefPun_$DATE/
+mkdir RefPun_$DATE/img/
+cp Punishment_Reference_Point.tex  RefPun_$DATE/Punishment_Reference_Point_$DATE.tex
+cp Punishment_Reference_Point.pdf  RefPun_$DATE/Punishment_Reference_Point_$DATE.pdf
+cp lit.bib  RefPun_$DATE/lit.bib
+cp img/*.png RefPun_$DATE/img/
+cp img/con1_lin.pdf RefPun_$DATE/img/
+cp img/sdiff_lin.pdf RefPun_$DATE/img/
+cp img/adiff_lin.pdf RefPun_$DATE/img/
+
+zip -r RefPun_$DATE.zip RefPun_$DATE
+
+rm -r RefPun_$DATE/
+

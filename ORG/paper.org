@@ -1,0 +1,74 @@
+
+* Mail Sebastian - New Story
+
+
+ohne drüber geschlafen zu haben:
+
+** Schritt 1
+kurze Papier so lassen, wie es jetzt ist (robustness of being pro-socialer
+punisher / free-rider)
+
+** Schritt 2
+
+papier auf das ursprungspapier (punishment in vcm) verweisen. 
+*Frage:*
+beobachten wir auch im Weakest Link solche pun-types, oder wird dem umstand
+rechnung getragen, dass der group-outcome nur vom minimum geprägt wird? 
+
+*vorstufe:*
+
+*summary data:* mean punishment for / frequency of  beiträge größer dem c_min
+(entweder aus dem triple, falls mein eigener Beitrag größer ist, sonst mein
+beitrag als c_min setzen). 
+
+kann man auch grafisch darstellen über deviations von
+c_min und mean punishment / frequency; 
+
+regression mit beta*(c_k-c_min). 
+*wir sehen:* es gibt solches punishment (oder?). 
+deshalb klassifikation gemäß „alter“ methode. 
+dann schauen, wie dies das group outcome beeinflusst: den teil, 
+der schon im papier drin ist 
+
+(nochmals checken, wieso die eine regression für any coordination „komisch“ aussieht).
+
+alternative, um den anderen papier von dir und christian nicht zu nahe zu kommen:
+zusätzlich (oder vielleicht ausschließlich) auf dem  beta*(c_k-c_min) den
+pun-type basieren lassen, und damit group outcomes predicten. und dann evtl. den
+vergleich mit der jetzigen klassifikation ziehen?
+
+
+* Kommentare von Sebastian
+
+** more punishment in WP
+*** larger loss in WP than RP
+*** kein 'Free Riding' -> deviation is negativ vor both
+*** pessimistic beliefs
+*** dagegen spricht auch, dass die Intensität des Punishment höher ist
+*** besonders interessant outcome anders
+**** abweichendes verhalten
+
+
+** point to make
+
+*** behavioral stability
+*** changes in behavior explained by socio-demographic factors
+*** average punishment behavior in P-RP-WP
+
+
+** potential Problems
+*** payoff function is non-linear
+**** potentially endogenous if own contribution is lowest of all contributions
+**** classification of behavior based only on 20-c_j ?!?
+**** table representation of 3 dimensions
+**** controlling for c_i = 0 of low c_i because this influences payoffs directly
+
+** other ideas to look at
+
+* Text snippets
+
+- "idiosyncratic behavioral traits rathern then environment specific behavioral pattern"
+- "context dependent behavior" -> Vgl beta = beta
+
+
+bequest

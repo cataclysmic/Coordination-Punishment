@@ -1,0 +1,41 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\toprule
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{PUN}&\multicolumn{1}{c}{PUN}&\multicolumn{1}{c}{PUN}&\multicolumn{1}{c}{PUN}\\
+\midrule
+sdiffop             &       0.062\sym{***}&                     &                     &       0.051\sym{***}\\
+                    &     (0.005)         &                     &                     &     (0.005)         \\
+\addlinespace
+porder              &       0.000         &                     &                     &       0.000         \\
+                    &         (.)         &                     &                     &         (.)         \\
+\addlinespace
+sdiffrp             &                     &       0.068\sym{***}&                     &       0.064\sym{***}\\
+                    &                     &     (0.007)         &                     &     (0.006)         \\
+\addlinespace
+rporder             &                     &       0.000         &       0.000         &       0.000         \\
+                    &                     &         (.)         &         (.)         &         (.)         \\
+\addlinespace
+sdiffwp             &                     &                     &       0.085\sym{***}&       0.079\sym{***}\\
+                    &                     &                     &     (0.007)         &     (0.008)         \\
+\addlinespace
+rp                  &                     &                     &                     &       0.166\sym{***}\\
+                    &                     &                     &                     &     (0.050)         \\
+\addlinespace
+wp                  &                     &                     &                     &       0.100\sym{*}  \\
+                    &                     &                     &                     &     (0.052)         \\
+\addlinespace
+dualorder           &                     &                     &                     &       0.000         \\
+                    &                     &                     &                     &         (.)         \\
+\addlinespace
+Constant            &       0.443\sym{***}&       0.624\sym{***}&       0.539\sym{***}&       0.461\sym{***}\\
+                    &     (0.009)         &     (0.005)         &     (0.024)         &     (0.032)         \\
+\midrule
+Observations        &        6840         &        6840         &        6840         &       20520         \\
+Adjusted \(R^{2}\)  &       0.215         &       0.222         &       0.251         &       0.212         \\
+\bottomrule
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

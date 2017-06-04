@@ -1,0 +1,13 @@
+	(1)
+VARIABLES	PUN
+	
+con1_inv	0.0683***
+	(0.00682)
+Constant	-0.00531
+	(0.0674)
+	
+Observations	6,840
+Number of sid	228
+R-squared	0.222
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

@@ -1,0 +1,31 @@
+[1] Config.pm:340> INFO - This is Biber 2.4
+[1] Config.pm:343> INFO - Logfile is 'Weakest_Link_Public_Good_Punishment.blg'
+[144] biber:287> INFO - === So Jun  4, 2017, 11:17:05
+[481] Biber.pm:348> INFO - Reading 'Weakest_Link_Public_Good_Punishment.bcf'
+[1070] Biber.pm:742> INFO - Found 0 citekeys in bib section 0
+[1073] Biber.pm:742> INFO - Found 12 citekeys in bib section 1
+[1073] Biber.pm:742> INFO - Found 0 citekeys in bib section 0
+[1074] Biber.pm:742> INFO - Found 1 citekeys in bib section 2
+[1075] Biber.pm:742> INFO - Found 0 citekeys in bib section 0
+[1092] Biber.pm:3151> INFO - Processing section 1
+[1192] Biber.pm:3308> INFO - Looking for bibtex format file 'lit.bib' for section 1
+[1905] bibtex.pm:1113> INFO - Decoding LaTeX character macros into UTF-8
+[2494] bibtex.pm:974> INFO - Found BibTeX data source 'lit.bib'
+[2757] Utils.pm:147> WARN - ISBN '0028-0836' in entry 'Fehr2002d' is invalid - run biber with '--validate_datamodel' for details.
+[3026] Utils.pm:147> WARN - I didn't find a database entry for 'Albrecht2017a' (section 1)
+[3027] Utils.pm:147> WARN - I didn't find a database entry for 'Fischbacher2010' (section 1)
+[3496] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3496] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[3497] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3497] Biber.pm:3028> INFO - Sorting list 'cms/global' of type 'entry' with scheme 'cms' and locale 'en-US'
+[3498] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[3560] Biber.pm:3151> INFO - Processing section 2
+[3560] Biber.pm:3308> INFO - Looking for bibtex format file 'lit.bib' for section 2
+[3689] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3689] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'level = 4' with 'level = 2'
+[3690] UCollate.pm:65> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3690] Biber.pm:3028> INFO - Sorting list 'cms/global' of type 'entry' with scheme 'cms' and locale 'en-US'
+[3691] Biber.pm:3032> INFO - No sort tailoring available for locale 'en-US'
+[3696] bbl.pm:519> INFO - Writing 'Weakest_Link_Public_Good_Punishment.bbl' with encoding 'UTF-8'
+[4047] bbl.pm:615> INFO - Output to Weakest_Link_Public_Good_Punishment.bbl
+[4047] Biber.pm:109> INFO - WARNINGS: 3

@@ -1,0 +1,37 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+                    &\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}\\
+\hline
+sdiff\_bz            &       0.001         &       0.014         &       0.005         &      -0.001         &       0.009         &       0.003         \\
+                    &     (0.006)         &     (0.012)         &     (0.007)         &     (0.006)         &     (0.011)         &     (0.006)         \\
+[1em]
+sdiff\_az            &       0.105\sym{***}&       0.091\sym{***}&       0.103\sym{***}&       0.099\sym{***}&       0.081\sym{***}&       0.098\sym{***}\\
+                    &     (0.016)         &     (0.014)         &     (0.016)         &     (0.017)         &     (0.014)         &     (0.016)         \\
+[1em]
+sdiff\_bz61          &                     &                     &      -0.010         &                     &                     &      -0.011         \\
+                    &                     &                     &     (0.010)         &                     &                     &     (0.010)         \\
+[1em]
+sdiff\_az61          &                     &                     &      -0.008         &                     &                     &      -0.014         \\
+                    &                     &                     &     (0.014)         &                     &                     &     (0.015)         \\
+[1em]
+D.min(c\_{jkl})      &                     &                     &                     &       0.166\sym{***}&       0.265\sym{***}&       0.138\sym{*}  \\
+                    &                     &                     &                     &     (0.054)         &     (0.055)         &     (0.072)         \\
+[1em]
+D.WLS\times D.min(c\_{jkl})&                     &                     &                     &                     &                     &       0.147         \\
+                    &                     &                     &                     &                     &                     &     (0.097)         \\
+[1em]
+Constant            &       0.034         &       0.158\sym{*}  &       0.078         &       0.021         &       0.137         &       0.060         \\
+                    &     (0.088)         &     (0.093)         &     (0.080)         &     (0.087)         &     (0.093)         &     (0.080)         \\
+\hline
+Observations        &        2880         &        2880         &        5760         &        2880         &        2880         &        5760         \\
+Adjusted \(R^{2}\)  &       0.344         &       0.226         &       0.260         &       0.348         &       0.234         &       0.266         \\
+\textit{AIC}        &        6078         &        7665         &       15279         &        6061         &        7636         &       15238         \\
+\textit{BIC}        &        6090         &        7677         &       15306         &        6079         &        7654         &       15278         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

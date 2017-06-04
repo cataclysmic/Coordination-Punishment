@@ -1,0 +1,28 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+                    &\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}&\multicolumn{1}{c}{d\_{ij}}\\
+\hline
+(20-c\_j)            &       0.156\sym{***}&       0.154\sym{***}&       0.156\sym{***}\\
+                    &     (0.009)         &     (0.009)         &     (0.009)         \\
+[1em]
+D.WLS               &                     &                     &       0.068         \\
+                    &                     &                     &     (0.045)         \\
+[1em]
+D.WLS\times (20-c\_j)&                     &                     &      -0.003         \\
+                    &                     &                     &     (0.010)         \\
+[1em]
+Constant            &      -0.289\sym{***}&      -0.218\sym{**} &      -0.284\sym{***}\\
+                    &     (0.090)         &     (0.085)         &     (0.078)         \\
+\hline
+Observations        &        2700         &        2700         &        5400         \\
+Adjusted \(R^{2}\)  &       0.631         &       0.569         &       0.537         \\
+\textit{AIC}        &        6753         &        7363         &       15497         \\
+\textit{BIC}        &        6758         &        7369         &       15517         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

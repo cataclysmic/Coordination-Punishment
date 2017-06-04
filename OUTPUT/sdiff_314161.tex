@@ -1,0 +1,41 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{PUN}&\multicolumn{1}{c}{PUN}&\multicolumn{1}{c}{PUN}&\multicolumn{1}{c}{PUN}\\
+\hline
+sdiff\_bz            &       0.003         &                     &                     &      -0.010\sym{**} \\
+                    &     (0.005)         &                     &                     &     (0.005)         \\
+[1em]
+sdiff\_az            &       0.105\sym{***}&                     &                     &       0.097\sym{***}\\
+                    &     (0.008)         &                     &                     &     (0.009)         \\
+[1em]
+sdiff\_bztr41        &                     &      -0.006         &                     &       0.002         \\
+                    &                     &     (0.007)         &                     &     (0.007)         \\
+[1em]
+sdiff\_aztr41        &                     &       0.133\sym{***}&                     &       0.031\sym{**} \\
+                    &                     &     (0.012)         &                     &     (0.014)         \\
+[1em]
+sdiff\_bztr61        &                     &                     &      -0.002         &       0.002         \\
+                    &                     &                     &     (0.008)         &     (0.009)         \\
+[1em]
+sdiff\_aztr61        &                     &                     &       0.127\sym{***}&       0.031\sym{**} \\
+                    &                     &                     &     (0.011)         &     (0.013)         \\
+[1em]
+rp                  &                     &                     &                     &       0.043         \\
+                    &                     &                     &                     &     (0.048)         \\
+[1em]
+wp                  &                     &                     &                     &       0.038         \\
+                    &                     &                     &                     &     (0.059)         \\
+[1em]
+Constant            &       0.040         &       0.068         &       0.092         &       0.037         \\
+                    &     (0.047)         &     (0.063)         &     (0.072)         &     (0.049)         \\
+\hline
+Observations        &        6840         &        6840         &        6840         &       20520         \\
+Adjusted \(R^{2}\)  &       0.301         &       0.359         &       0.320         &       0.293         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

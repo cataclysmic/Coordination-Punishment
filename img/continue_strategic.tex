@@ -1,0 +1,19 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}\\
+            &\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{payoff}\\
+\hline
+strategic   &       6.304\sym{***}&       5.549\sym{***}&       7.060\sym{**} &       0.986         &      -0.102         &       2.074         \\
+            &      (3.52)         &      (3.65)         &      (3.23)         &      (0.48)         &     (-0.05)         &      (0.86)         \\
+[1em]
+\_cons      &       8.426\sym{***}&       8.280\sym{***}&       8.572\sym{***}&       22.02\sym{***}&       21.30\sym{***}&       22.73\sym{***}\\
+            &     (10.35)         &     (12.08)         &      (8.62)         &     (30.33)         &     (31.78)         &     (25.20)         \\
+\hline
+\(N\)       &        1870         &         935         &         935         &        1870         &         935         &         935         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}

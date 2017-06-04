@@ -1,0 +1,26 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{12}{c}}
+\toprule
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}&\multicolumn{1}{c}{(6)}&\multicolumn{1}{c}{(7)}&\multicolumn{1}{c}{(8)}&\multicolumn{1}{c}{(9)}&\multicolumn{1}{c}{(10)}&\multicolumn{1}{c}{(11)}&\multicolumn{1}{c}{(12)}\\
+            &\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{contrib}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{payoff}&\multicolumn{1}{c}{payoff}\\
+\midrule
+strategic   &       6.304\sym{***}&       5.549\sym{***}&       7.060\sym{**} &       0.986         &      -0.102         &       2.074         &                     &                     &                     &                     &                     &                     \\
+            &      (3.52)         &      (3.65)         &      (3.23)         &      (0.48)         &     (-0.05)         &      (0.86)         &                     &                     &                     &                     &                     &                     \\
+\addlinespace
+low         &                     &                     &                     &                     &                     &                     &       4.151\sym{***}&       3.372\sym{***}&       4.930\sym{***}&       1.620\sym{*}  &       0.484         &       2.756\sym{*}  \\
+            &                     &                     &                     &                     &                     &                     &      (3.49)         &      (3.39)         &      (3.30)         &      (2.01)         &      (0.64)         &      (2.39)         \\
+\addlinespace
+high        &                     &                     &                     &                     &                     &                     &       5.656\sym{***}&       4.662\sym{***}&       6.650\sym{***}&       2.181         &       1.038         &       3.323         \\
+            &                     &                     &                     &                     &                     &                     &      (3.66)         &      (3.57)         &      (3.49)         &      (1.36)         &      (0.66)         &      (1.75)         \\
+\addlinespace
+\_cons      &       8.426\sym{***}&       8.280\sym{***}&       8.572\sym{***}&       22.02\sym{***}&       21.30\sym{***}&       22.73\sym{***}&       7.023\sym{***}&       7.294\sym{***}&       6.752\sym{***}&       20.91\sym{***}&       20.77\sym{***}&       21.05\sym{***}\\
+            &     (10.35)         &     (12.08)         &      (8.62)         &     (30.33)         &     (31.78)         &     (25.20)         &      (6.37)         &      (7.92)         &      (4.85)         &     (29.88)         &     (32.82)         &     (19.96)         \\
+\midrule
+\(N\)       &        1870         &         935         &         935         &        1870         &         935         &         935         &        1870         &         935         &         935         &        1870         &         935         &         935         \\
+adj. \(R^{2}\)&                     &                     &                     &                     &                     &                     &                     &                     &                     &                     &                     &                     \\
+\bottomrule
+\multicolumn{13}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{13}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
